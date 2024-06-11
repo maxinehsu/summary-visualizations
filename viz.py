@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 import pandas as pd
 import re
 
@@ -31,11 +32,7 @@ number_pattern = re.compile("[0-9]{3}[A-Za-z]?")    # e.g., "171" or "330"
 
 # iterate through each element of the "Course" column
 for i in range(len(df["Course"])):
-    subject = number = ""
-    subject_match = subject_pattern.match(df["Course"][i])
-    number_match = number_pattern.match(df["Course"][i])
+    subject = subject_pattern.search(df["Course"][i]).group().upper() if subject_pattern.search(df["Course"][i]) else ""
+    number = number_pattern.search(df["Course"][i]).group().upper() if number_pattern.search(df["Course"][i]) else ""
 
-    if subject_match:
-        pass
-    if number_match:
-        pass
+    df.at[i, "Course"] = subject + number  # standardize course code (e.g., biol708w -> BIOL708W
