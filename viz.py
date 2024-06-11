@@ -15,8 +15,8 @@ df.columns = ["Timestamp",
               "Frustrations",                       # Q8
               "Additional info",                    # Q9
               "Graduating",                         # Q10
-              "Job application/acceptance impact",  # Q11
-              "Career impact",                      # Q12
+              "Job app/acceptance impact",          # Q11
+              "Career plan impact",                 # Q12
               "Demographics",                       # Q13
               "Email"]                              # Q14
 
@@ -26,5 +26,16 @@ df.columns = ["Timestamp",
 # regex to look for
 course = re.compile("([A-Za-z]{4})[ -]*([0-9]{3}[A-Za-z]?)")
 
-for i in df.get("Course"):
-    pass
+# iterate through all elements of the "Course" column
+for i in range(len(df["Course"])):
+    # ignore first element (question)
+    if i == 0:
+        continue
+
+    subject = number = ""
+    m = course.match(df["Course"][i])
+
+    if m.group(1):
+        subject = m.group(1).upper()    # standardize to uppercase
+    if m.group(2):
+        number = m.group(2).upper()     # standardize to uppercase
