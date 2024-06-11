@@ -13,29 +13,29 @@ df.columns = ["Timestamp",
               "Course resource support",            # Q6
               "Most helpful",                       # Q7
               "Frustrations",                       # Q8
-              "Additional info",                    # Q9
+              "Add. info",                          # Q9
               "Graduating",                         # Q10
               "Job app/acceptance impact",          # Q11
               "Career plan impact",                 # Q12
               "Demographics",                       # Q13
               "Email"]                              # Q14
 
+# each respondent's unique identifier is the corresponding row's index
+
 
 ### QUESTION 1 ###
 
-# regex to look for
-course = re.compile("([A-Za-z]{4})[ -]*([0-9]{3}[A-Za-z]?)")
+# regexes to look for
+subject_pattern = re.compile("[A-Za-z]{4}")         # e.g., "BSCI" or "BIOE"
+number_pattern = re.compile("[0-9]{3}[A-Za-z]?")    # e.g., "171" or "330"
 
-# iterate through all elements of the "Course" column
+# iterate through each element of the "Course" column
 for i in range(len(df["Course"])):
-    # ignore first element (question)
-    if i == 0:
-        continue
-
     subject = number = ""
-    m = course.match(df["Course"][i])
+    subject_match = subject_pattern.match(df["Course"][i])
+    number_match = number_pattern.match(df["Course"][i])
 
-    if m.group(1):
-        subject = m.group(1).upper()    # standardize to uppercase
-    if m.group(2):
-        number = m.group(2).upper()     # standardize to uppercase
+    if subject_match:
+        pass
+    if number_match:
+        pass
