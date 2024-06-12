@@ -10,4 +10,4 @@ Summary visualizations of Spring 2024 student survey data from various undergrad
 4. Standardized course codes into
    - 4 uppercase letters denoting subject (e.g., "BSCI" or "BIOL") followed by
    - 3 digits and (optionally) a single uppercase letter denoting course number (e.g., "330" or "708W").
-5. Created histogram of course distribution amongst respondents. **<- _currently doing_**
+5. Created histogram of course distribution amongst respondents. **[_currently doing_]**
