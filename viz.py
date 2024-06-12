@@ -38,7 +38,7 @@ for i in range(len(df["Course"])):
     subject = subject_pattern.search(df["Course"][i]).group().upper() if subject_pattern.search(df["Course"][i]) else ""
     number = number_pattern.search(df["Course"][i]).group().upper() if number_pattern.search(df["Course"][i]) else ""
 
-    df.at[i, "Course"] = subject + number   # standardize course code (e.g., biol708w -> BIOL708W)
+    df.at[i, "Course"] = subject + number   # update course code to standard (e.g., biol708w -> BIOL708W)
 
 ### generate histogram of course data
 
