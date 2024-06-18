@@ -1,9 +1,6 @@
 # Summary visualizations of BSCI student survey data
 Summary visualizations of Spring 2024 student survey data from various undergraduate BSCI courses.
 
-> [!IMPORTANT]
-> **UPDATE 6/13/24:** I have decided to transfer my Python code to a Jupyter Notebook. This enables display of graphs and other data visualizations that may be present throughout my code. I can also embed Markdown between code blocks, facilitating code readability.
-
 ## Procedure
 1. Exported Google Sheet corresponding to Google Form survey as CSV file for easier Python data wrangling.
 2. Read CSV file into pandas dataframe.
