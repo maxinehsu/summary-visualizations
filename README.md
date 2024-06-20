@@ -11,4 +11,4 @@ This repository contains summary visualizations of Spring 2024 student survey da
    1. 4 uppercase letters denoting subject (e.g., "BSCI" or "BIOL") followed by
    2. 3 digits and (optionally) a single uppercase letter denoting course number (e.g., "330" or "708W").
 5. Resolved discrepancies in responses indicating courses that were not part of those who received the survey (i.e., likely typos) using the course with a minimal Levenshtein distance from the response. **[_currently doing_]**
-5. Created bar chart of course distribution amongst respondents.
+6. Created bar chart of course distribution amongst respondents.
