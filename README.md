@@ -10,5 +10,5 @@ This repository contains summary visualizations, created using Python, of Spring
 4. Standardized course codes into
    1. 4 uppercase letters denoting subject (e.g., "BSCI" or "BIOL") followed by
    2. 3 digits and (optionally) a single uppercase letter denoting course number (e.g., "330" or "708W").
-5. Resolved discrepancies in responses indicating courses that were not part of those who received the survey (i.e., likely typos) using the course with a minimal Levenshtein distance from the response. **[_currently doing_]**
+5. Resolved discrepancies in responses indicating courses that were not part of those that received the survey (i.e., likely typos) using the course with a minimal Levenshtein distance from the response. **[_currently doing_]**
 6. Created bar chart of course distribution amongst respondents.
