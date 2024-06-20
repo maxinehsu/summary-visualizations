@@ -1,5 +1,5 @@
 # Summary visualizations of BSCI student survey data
-This repository contains summary visualizations of Spring 2024 student survey data from various undergraduate BSCI courses. This README provides a general overview of the data wrangling conducted; for more detailed comments and explanations, as well as the data visualizations themselves, view the Jupyter Notebook.
+This repository contains summary visualizations, created using Python, of Spring 2024 student survey data from various undergraduate BSCI courses. This README provides a general overview of the data wrangling conducted; for more detailed comments and explanations, as well as the data visualizations themselves, view the Jupyter Notebook.
 
 ## Procedure
 1. Exported Google Sheet corresponding to Google Form survey as CSV file.
