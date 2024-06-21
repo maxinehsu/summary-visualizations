@@ -4,7 +4,7 @@ This repository contains summary visualizations, created using Python, of Spring
 ## Procedure
 1. Exported Google Sheet corresponding to Google Form survey as `student_responses.csv`.
 2. Read `student_responses.csv` into pandas dataframe.
-3. Renamed column headers (i.e., questions) to be more succinct.
+3. Renamed column headers (i.e., questions) as question numbers.
 
 ### Question 1
 4. Standardized course codes into
@@ -16,3 +16,10 @@ This repository contains summary visualizations, created using Python, of Spring
 6. Created bar chart of course distribution amongst respondents.
    - **6/20/24** | Perhaps put courses cross-listed with each other in the same category?
    - **6/20/24** | (_Adena's suggestion_) Perhaps group courses based on category (e.g., BSCI330 and BSCI170/171 would go into the "cell bio" category)?
+
+### Question 4
+7. Created pie chart of time spent completing computational biology coursework amongst respondents.
+
+### Question 10
+
+### Question 11
