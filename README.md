@@ -24,8 +24,8 @@ The :arrow_left: indicates what I am currently working on.
    - **6/21/24** | Have to debug. For some reason the x-axis labels are being sorted in ascending order even though I never sorted them as such. As a result, the numerical labels, when shown, are way off (and in the wrong order).
 
 ### Question 10
-8. Created pie chart of graduation statistics.
+8. Created bar chart of graduation statistics. :arrow_left:
 
 ### Question 11
-9. Created pie chart of job application/acceptance statistics. :arrow_left:
-   - **6/24/24** | Realized pandas, by default, interprets "NA" and empty string values from a CSV file as "NaN". This becomes a problem when a question allows both a "NA" response and no response at all (i.e., is an optional question). This is the case for Question 11. Initially, the pie chart disregarded all NaN values; now, because I have forced it to accept "NA" as a proper response, it displays all categories _including_ the empty string one. This leads to a somewhat useless chart that shows the vast majority of respondents skipped this question even if the other response percentages are also displayed.
+9. Created bar chart of job application/acceptance statistics. :arrow_left:
+   - **6/24/24** | Realized pandas, by default, interprets "NA" and empty string values from a CSV file as "NaN". This becomes a problem when a question allows both a "NA" response and no response at all (i.e., is an optional question). This is the case for Question 11.
