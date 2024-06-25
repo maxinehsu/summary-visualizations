@@ -24,7 +24,7 @@ The :arrow_left: indicates what I am currently working on.
    - **6/21/24** | Have to debug. For some reason the x-axis labels are being sorted in ascending order even though I never sorted them as such. As a result, the numerical labels, when shown, are way off (and in the wrong order).
 
 ### Question 10
-8. Created bar chart of graduation statistics. :arrow_left:
+8. Created bar chart of graduation statistics.
 
 ### Question 11
 9. Created bar chart of job application/acceptance statistics. :arrow_left:
