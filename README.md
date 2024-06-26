@@ -1,7 +1,8 @@
 # Summary visualizations of BSCI student survey data
 This repository contains summary visualizations, created using Python, of Spring 2024 student survey data from various undergraduate BSCI courses. This README provides a general overview of the data wrangling conducted; for more detailed comments and explanations, as well as the data visualizations themselves, view the Jupyter Notebook file `viz.ipynb`.
 
-The :arrow_left: indicates what I am currently working on.
+> [!NOTE]
+> The :arrow_left: indicates what I am currently working on.
 
 ## Procedure
 1. Exported Google Sheet corresponding to Google Form survey as `student_responses.csv`.
@@ -21,7 +22,7 @@ The :arrow_left: indicates what I am currently working on.
 
 ### Question 4
 7. Created bar chart of time spent completing computational biology coursework amongst respondents. :arrow_left:
-   - **6/21/24** | Have to debug. For some reason the x-axis labels are being sorted in ascending order even though I never sorted them as such. As a result, the numerical labels, when shown, are way off (and in the wrong order).
+   - **6/26/24** | Still have to debug. The numerical labels are in the correct order, but offset from their appropriate positions.
 
 ### Question 10
 8. Created bar chart of graduation statistics.
