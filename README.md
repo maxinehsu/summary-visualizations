@@ -29,6 +29,5 @@ This repository contains summary visualizations, created using Python, of Spring
 8. Created bar chart of graduation statistics.
 
 ### Question 11
-9. Created bar chart of job application/acceptance statistics. :arrow_left:
-   > **6/24/24** | Realized pandas, by default, interprets "NA" and empty string values from a CSV file as "NaN". This becomes a problem when a question allows both a "NA" response and no response at all (i.e., is an optional question). This is the case for Question 11.  
-   > **6/26/24** | Resolved the above issue, but am now wondering if it would be better to differentiate between actual "N/A" responses and no response (i.e., only show data for graduating seniors).
+9. Created bar chart of job application/acceptance statistics amongst seniors.
+   > **7/1/24** | Thinking about including x-values that had no responses but were an answer choice (e.g., "Yes, negatively").
