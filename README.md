@@ -30,4 +30,5 @@ This repository contains summary visualizations, created using Python, of Spring
 
 ### Question 11
 9. Created bar chart of job application/acceptance statistics amongst seniors.
-   > **7/1/24** | Thinking about including x-values that had no responses but were an answer choice (e.g., "Yes, negatively").
+   > **7/1/24** | Thinking about including x-values that had no responses but were an answer choice (e.g., "Yes, negatively").  
+   > **7/2/24** | Don't think it's possible to do that without manually entering those categories. CSV files don't preserve that type of missing data. It honestly feels like wholly unnecessary extra work.
