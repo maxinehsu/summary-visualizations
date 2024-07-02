@@ -22,13 +22,10 @@ This repository contains summary visualizations, created using Python, of Spring
    >> **6/26/24** | Perhaps two charts for this question: one regular bar chart (like the one I already have), and one grouped bar chart (for groupings based on course category).
 
 ### Question 4
-7. Created bar chart of time spent completing computational biology coursework amongst respondents. :arrow_left:
-   > **6/26/24** | Still have to debug. The numerical labels are in the correct order, but offset from their appropriate positions.
+7. Created bar chart of time spent completing computational biology coursework amongst respondents.
 
 ### Question 10
 8. Created bar chart of graduation statistics.
 
 ### Question 11
 9. Created bar chart of job application/acceptance statistics amongst seniors.
-   > **7/1/24** | Thinking about including x-values that had no responses but were an answer choice (e.g., "Yes, negatively").  
-   > **7/2/24** | Don't think it's possible to do that without manually entering those categories. CSV files don't preserve that type of missing data. It honestly feels like wholly unnecessary extra work.
