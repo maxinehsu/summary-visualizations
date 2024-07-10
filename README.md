@@ -9,7 +9,8 @@ This repository contains summary visualizations, created using Python, of Spring
 2. Read `student_responses.csv` into pandas dataframe.
 3. Renamed column headers (i.e., questions) as question numbers.
 
-### Question 1
+### General responses
+#### Question 1
 4. Standardized course codes into
    1. 4 uppercase letters denoting subject (e.g., "BSCI" or "BIOL") followed by
    2. 3 digits and (optionally) a single uppercase letter denoting course number (e.g., "330" or "708W").
@@ -19,11 +20,13 @@ This repository contains summary visualizations, created using Python, of Spring
    > **6/20/24** | (_Adena's suggestion_) Perhaps group courses based on category (e.g., BSCI330 and BSCI170/171 would go into the "cell bio" category)?
    >> **6/26/24** | Perhaps two charts for this question: one regular bar chart (like the one I already have), and one grouped bar chart (for groupings based on course category).
 
-### Question 4
+#### Question 4
 7. Created bar chart of time spent completing computational biology coursework amongst respondents.
 
-### Question 10
+#### Question 10
 8. Created bar chart of graduation statistics.
 
-### Question 11
+#### Question 11
 9. Created bar chart of job application/acceptance statistics amongst seniors.
+
+### Responses by course :arrow_left:
