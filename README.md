@@ -14,7 +14,7 @@ This repository contains summary visualizations, created using Python, of Spring
 4. Standardized course codes into
    1. 4 uppercase letters denoting subject (e.g., "BSCI" or "BIOL") followed by
    2. 3 digits and (optionally) a single uppercase letter denoting course number (e.g., "330" or "708W").
-5. Resolved discrepancies in responses indicating courses that were not part of those that received the survey (i.e., likely typos) using the course with a minimal [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) from the response. :arrow_left:
+5. Resolved discrepancies in responses indicating courses that were not part of those that received the survey (i.e., likely typos) using the course with a minimal [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) from the response.
 6. Created bar chart of course distribution amongst respondents.
    > **6/20/24** | Perhaps put courses cross-listed with each other in the same category?  
    > **6/20/24** | (_Adena's suggestion_) Perhaps group courses based on category (e.g., BSCI330 and BSCI170/171 would go into the "cell bio" category)?
