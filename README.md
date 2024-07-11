@@ -18,7 +18,6 @@ This repository contains summary visualizations, created using Python, of Spring
 6. Created bar chart of course distribution amongst respondents.
    > **6/20/24** | Perhaps put courses cross-listed with each other in the same category?  
    > **6/20/24** | (_Adena's suggestion_) Perhaps group courses based on category (e.g., BSCI330 and BSCI170/171 would go into the "cell bio" category)?
-   >> **6/26/24** | Perhaps two charts for this question: one regular bar chart (like the one I already have), and one grouped bar chart (for groupings based on course category).
 
 #### Question 4
 7. Created bar chart of time spent completing computational biology coursework amongst respondents.
@@ -30,4 +29,4 @@ This repository contains summary visualizations, created using Python, of Spring
 9. Created bar chart of job application/acceptance statistics amongst seniors.
 
 ### Responses by course
-#### BSCI330 :arrow_left:
+#### BSCI330 – Cell Biology and Physiology :arrow_left:
