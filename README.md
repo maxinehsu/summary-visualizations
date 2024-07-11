@@ -29,4 +29,5 @@ This repository contains summary visualizations, created using Python, of Spring
 #### Question 11
 9. Created bar chart of job application/acceptance statistics amongst seniors.
 
-### Responses by course :arrow_left:
+### Responses by course
+#### BSCI330 :arrow_left:
