@@ -17,7 +17,7 @@ This repository contains summary visualizations, created using Python, of Spring
 5. Resolved discrepancies in responses indicating courses that were not part of those that received the survey (i.e., likely typos) using the course with a minimal [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) from the response.
 6. Created bar chart of course distribution amongst respondents.
    > **6/20/24** | Perhaps put courses cross-listed with each other in the same category?  
-   > **6/20/24** | (_Adena's suggestion_) Perhaps group courses based on category (e.g., BSCI330 and BSCI170/171 would go into the "cell bio" category)?
+   > **6/20/24** | (_Adena's suggestion_) Perhaps group courses based on category? :arrow_left:
 
 #### Question 4
 7. Created bar chart of time spent completing computational biology coursework amongst respondents.
