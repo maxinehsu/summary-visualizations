@@ -19,14 +19,17 @@ This repository contains summary visualizations, created using Python, of Spring
    > **6/20/24** | Perhaps put courses cross-listed with each other in the same category?  
    > **6/20/24** | (_Adena's suggestion_) Perhaps group courses based on category? :arrow_left:
 
+#### Question 3
+7. Created bar chart of required BSCI courses that included in-class computational biology work. :arrow_left:
+
 #### Question 4
-7. Created bar chart of time spent completing computational biology coursework amongst respondents.
+8. Created bar chart of time spent completing computational biology coursework amongst respondents.
 
 #### Question 10
-8. Created bar chart of graduation statistics.
+9. Created bar chart of graduation statistics.
 
 #### Question 11
-9. Created bar chart of job application/acceptance statistics amongst seniors.
+10. Created bar chart of job application/acceptance statistics amongst seniors.
 
 ### Responses by course
 #### BSCI330 – Cell Biology and Physiology :arrow_left:
